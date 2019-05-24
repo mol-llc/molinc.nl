@@ -1,0 +1,52 @@
+body{
+  background-color: $bg;
+  text-align: center;
+}
+
+h1{
+  font-size: 1000%;
+}
+
+.nav-layout{
+  border-bottom: 2px solid $primary;
+}
+
+#wrap{
+  margin: 0% 12%;
+  align-content: left;
+}
+
+.first-container{
+  margin-top: 57px;
+}
+
+#home-container{
+  padding-top: 15%;
+  height: 100vh;
+}
+
+.container{
+  padding-top: 20%;
+  height: 100vh;
+}
+
+.button{
+  border: 2px solid $delta;
+  background-color: $bg;
+  border-radius: 50px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  &:hover{
+    border: 2px solid $primary;
+  }
+}
+
+@media screen and (max-width: 527px){
+  #image{
+    visibility: hidden;
+  }
+  .container{
+    padding-top: 20px;
+  }
+}
